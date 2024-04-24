@@ -8,12 +8,28 @@ header{
     text-align: center;
 }
 
+/* #mainHeading{
+
+} */
+
+ol{
+   text-align: left; 
+   margin-left: 4em;
+}
+.dashLine{
+    border-top: 2px dashed;
+}
+
 #blurb{
     font-size: smaller;
 }
 
 
+
 body{
     font-family: myFont;
+    text-align: center;
     margin: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
