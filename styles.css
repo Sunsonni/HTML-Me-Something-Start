@@ -24,6 +24,11 @@ ol{
     font-size: smaller;
 }
 
+.column{
+    float: left;
+    width: 50%;
+}
+
 
 
 body{
