@@ -27,14 +27,24 @@ ol{
 .column{
     float: left;
     width: 50%;
+    text-align: left;
 }
 
-
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
 
 body{
     font-family: myFont;
     text-align: center;
-    margin: 8px;
+    background-image: url(background/—Pngtree—textured\ background\ of\ wrinkled\ or_15158705.png);
+    background-size: 1024;
+    background-repeat: no-repeat;
+    max-width: 1024px;
+    margin: 8px auto;
     padding-left: 30px;
     padding-right: 30px;
 }
