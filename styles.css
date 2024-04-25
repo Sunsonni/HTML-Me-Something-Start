@@ -14,7 +14,6 @@ header{
 
 ol{
    text-align: left; 
-   margin-left: 4em;
 }
 .dashLine{
     border-top: 2px dashed;
@@ -30,18 +29,19 @@ ol{
     text-align: left;
 }
 
+
+
 img{
-    float: left;
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 body{
     font-family: myFont;
     text-align: center;
     background-image: url(background/—Pngtree—textured\ background\ of\ wrinkled\ or_15158705.png);
-    background-size: 1024;
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 1024px;
     margin: 8px auto;
