@@ -8,35 +8,9 @@ header{
     text-align: center;
 }
 
-#mainHeading{
-    font-size: smaller;
-}
 ol{
    text-align: left; 
 }
-.dashLine{
-    border-top: 2px dashed;
-}
-
-
-
-.column{
-    float: left;
-    width: 50%;
-    text-align: left;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
 img{
     width: 250px;
@@ -56,3 +30,35 @@ body{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.dashLine{
+    border-top: 2px dashed;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#mainHeading{
+    font-size: smaller;
+}
+
+
+
+
+
+
